@@ -1,0 +1,54 @@
+#lu{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+ 
+   
+}
+#li{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: blueviolet;
+   
+}
+#tit{
+    text-align: center;
+    font-size: 30px;
+    background-color: blueviolet;
+
+
+}
+#banner{
+    background-color: blueviolet;
+    height: auto;
+    width: auto;
+}
+#v2{
+    font-size: 30px;
+  
+}
+#image{
+   margin: auto;
+    width: 1000px;
+    height: 300px;
+   
+   
+}
+#preco{
+    color: red;
+}
+#lk{
+    font-size: 20px;
+    text-align: center;
+   
+}
+#ln{
+    font-size: 30px;
+    text-align: center;
+    background-color: blueviolet;
+}
+#sl{
+    width: 220px;
+    height: 250px;
+}

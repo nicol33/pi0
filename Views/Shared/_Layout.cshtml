@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FUTEON</title>
+
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <title> FUTEON </title>
+
+
+        <div id="banner">
+            <center>
+                <h1 id="tit">FUTEON</h1>
+                <img src="~/img/img09.jpg" id="image">
+            </center>
+            <h2 id="v2">.O QUE VOCÊ PROCURA?</h2>
+            <div>
+                <input type="text" style="width: 400px;">
+                <input type="button" value="Buscar">
+            </div>
+            <div class="lu">
+                <a asp-action="Index" asp-controller="Home" id="li">Inicio</a>
+                <br>
+                <a asp-action="Roupas" asp-controller="Home" id="li"> Roupas </a>
+                <br>
+
+                <a asp-action="Suplementos" asp-controller="Home" id="li">Suplementos</a>
+                <br>
+                <a asp-action="Acessorios" asp-controller="Home" id="li">Acessórios</a>
+                <br>
+                <a asp-action="Fale" asp-controller="Home" id="li">Fale Conosco</a>
+                <br>
+                <a asp-action="Galeria" asp-controller="Home" id="li">Galeria</a>
+            </div>
+
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <center>
+            <div class="container" </center>
+                &copy; 2023 - dotnet - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+    </footer>
+    <script type="text/javascript" src="~/js/script.js"> </script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>
